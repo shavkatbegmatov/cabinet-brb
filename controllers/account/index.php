@@ -7,7 +7,3 @@ if (!isset($_SESSION['user'])) {
 }
 
 $user = R::findOne('user', 'id = ?', [$_SESSION['user']]);
-
-// Test
-
-// Test 2
