@@ -1,6 +1,6 @@
 <script src="https://unpkg.com/imask"></script>
 
-<form class="ui segment form" method="POST" action="">
+<form class="ui padded segment form" method="POST" action="">
     <h1 class="ui centered header">Вход</h1>
 
     <?php if (isset($_SESSION['error'])): ?>
@@ -10,7 +10,7 @@
     <?php endif; ?>
     
     <div class="field">
-        <label>Серийный номер паспорта, или ПИНФЛ</label>
+        <label><span id="passport_label">Серийный номер паспорта</span> или <span id="pinfl_label">ПИНФЛ</span></label>
         <input type="text" name="passport" id="passport" placeholder="AD0000000">
     </div>
     <div class="field">
@@ -22,11 +22,14 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', (event) => {
+        let passportLabel = document.getElementById('passport_label');
+        let pinflLabel = document.getElementById('pinfl_label');
         let element = document.getElementById('passport');
+        
         let maskOptions = {
             mask: [
                 {
-                    mask: 'AA0000000',
+                    mask: 'AA 0000000',
                     definitions: {
                         'A': /[A-Z]/
                     }
@@ -36,6 +39,21 @@
                 }
             ]
         };
+        
         let mask = IMask(element, maskOptions);
+        
+        element.addEventListener('input', function() {
+            let value = element.value;
+            if (/^[A-Z]{2}\d{7}$/.test(value)) {
+                passportLabel.style.color = 'green';
+                pinflLabel.style.color = '';
+            } else if (/^\d{14}$/.test(value)) {
+                pinflLabel.style.color = 'green';
+                passportLabel.style.color = '';
+            } else {
+                passportLabel.style.color = '';
+                pinflLabel.style.color = '';
+            }
+        });
     });
 </script>

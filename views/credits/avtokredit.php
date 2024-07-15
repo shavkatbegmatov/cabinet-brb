@@ -5,23 +5,23 @@
 <div class="ui fluid very padded segment">
     <div class="ui four column stackable grid" style="margin-bottom: 16px;">
         <div class="centered seven wide column">
-            <img class="ui image" src="/views/layouts/assets/img/car.jpg" alt="" />
-            <p style="font-weight: 400; font-size: 16px; color: #555; text-align: center; margin-top: 10px;">С нами ваша мечта мечта о новом автомобиле станет реальностью!</p>
+            <img class="ui image" src="/views/layouts/assets/img/car.jpg" alt="" width="300px"/>
+            <p style="font-weight: 400; font-size: 14px; color: #555; text-align: center; margin-top: 10px;">С нами ваша мечта мечта о новом автомобиле станет реальностью!</p>
         </div>
         <div class="three wide column" style="text-align: center;">
             <img class="ui tiny centered image" src="/views/layouts/assets/img/icons/card-money.png" alt="" style="margin-bottom: 24px;" />
-            <b>Boshlang'ich badal</b>
-            <p style="font-weight: 300; margin-top: 4px;">15% dan boshlab</p>
+            <b>Первоначальный взнос</b>
+            <p style="font-weight: 300; margin-top: 4px;">Начиная с 15%</p>
         </div>
         <div class="three wide column" style="text-align: center;">
             <img class="ui tiny centered image" src="/views/layouts/assets/img/icons/Time-icon.png" alt="" style="margin-bottom: 24px;" />
-            <b>Muddati</b>
-            <p style="font-weight: 300; margin-top: 4px;">60 oygacha</p>
+            <b>Срок</b>
+            <p style="font-weight: 300; margin-top: 4px;">До 60 месяцев</p>
         </div>
         <div class="three wide column" style="text-align: center;">
             <img class="ui tiny centered image" src="/views/layouts/assets/img/icons/Percent-icon.png" alt="" style="margin-bottom: 24px;" />
-            <b>Yillik foiz stavkasi</b>
-            <p style="font-weight: 300; margin-top: 4px;">23% dan boshlab</p>
+            <b>Годовая процентная ставка</b>
+            <p style="font-weight: 300; margin-top: 4px;">Начиная с 23%</p>
         </div>
     </div>
     <button class="ui basic button" style="display: inline-flex; align-items: center; gap: 6px;" onclick="$('#togglebox').toggle();">Подробно <i class="bx bx-chevron-down" style="font-size: 22px;"></i></button>
