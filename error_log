@@ -418,3 +418,971 @@ Stack trace:
 #15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
 #16 {main}
   thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 06:21:48 UTC] PHP Warning:  Undefined array key "user" in /home/ztechuz/app.z-tech.uz/controllers/account/index.php on line 9
+[15-Jul-2024 06:21:48 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 06:52:04 UTC] PHP Warning:  Undefined array key "user" in /home/ztechuz/app.z-tech.uz/controllers/account/index.php on line 9
+[15-Jul-2024 06:52:04 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:10:36 UTC] PHP Warning:  Undefined array key "user" in /home/ztechuz/app.z-tech.uz/controllers/account/index.php on line 9
+[15-Jul-2024 07:10:36 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:20:58 UTC] PHP Warning:  Undefined array key "user" in /home/ztechuz/app.z-tech.uz/controllers/account/index.php on line 9
+[15-Jul-2024 07:20:58 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:20:58 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/ztechuz/app.z-tech.uz/controllers/account/login.php on line 12
+[15-Jul-2024 07:21:05 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/ztechuz/app.z-tech.uz/controllers/account/login.php on line 12
+[15-Jul-2024 07:21:06 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/ztechuz/app.z-tech.uz/controllers/account/login.php on line 12
+[15-Jul-2024 07:23:11 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:14 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:15 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:17 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:18 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:19 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:19 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:19 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:21 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:23:21 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:35 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:38 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:39 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:39 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:40 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:40 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:41 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:41 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:41 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:43 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:37:43 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:38:50 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:38:51 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:38:53 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:38:54 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:38:54 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:38:55 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:39:05 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:06 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:07 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:30 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:31 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:31 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:32 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:32 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:32 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:32 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:40:39 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:41:22 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:41:25 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:41:26 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:41:26 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 07:41:27 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105
+[15-Jul-2024 09:47:45 UTC] PHP Warning:  Undefined array key "user" in /home/ztechuz/app.z-tech.uz/controllers/account/index.php on line 9
+[15-Jul-2024 09:47:45 UTC] PHP Fatal error:  Uncaught PDOException: Could not connect to database (javohyr). in /home/ztechuz/app.z-tech.uz/connect/rb.php:1105
+Stack trace:
+#0 /home/ztechuz/app.z-tech.uz/connect/rb.php(798): RedBeanPHP\Driver\RPDO->connect()
+#1 /home/ztechuz/app.z-tech.uz/connect/rb.php(1175): RedBeanPHP\Driver\RPDO->runQuery('SELECT `user`.*...', Array)
+#2 /home/ztechuz/app.z-tech.uz/connect/rb.php(4374): RedBeanPHP\Driver\RPDO->GetAll('SELECT `user`.*...', Array)
+#3 /home/ztechuz/app.z-tech.uz/connect/rb.php(6625): RedBeanPHP\Adapter\DBAdapter->get('SELECT `user`.*...', Array)
+#4 /home/ztechuz/app.z-tech.uz/connect/rb.php(8464): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord('user', Array, 'id = ? LIMIT 1 ', Array)
+#5 /home/ztechuz/app.z-tech.uz/connect/rb.php(9584): RedBeanPHP\Repository->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#6 /home/ztechuz/app.z-tech.uz/connect/rb.php(10210): RedBeanPHP\OODB->find('user', Array, 'id = ? LIMIT 1 ', Array)
+#7 /home/ztechuz/app.z-tech.uz/connect/rb.php(10255): RedBeanPHP\Finder->find('user', 'id = ? LIMIT 1 ', Array)
+#8 /home/ztechuz/app.z-tech.uz/connect/rb.php(12998): RedBeanPHP\Finder->findOne('user', 'id = ? LIMIT 1 ', Array)
+#9 /home/ztechuz/app.z-tech.uz/controllers/account/index.php(9): RedBeanPHP\Facade::findOne('user', 'id = ?', Array)
+#10 /home/ztechuz/app.z-tech.uz/router.php(53): include('/home/ztechuz/a...')
+#11 /home/ztechuz/app.z-tech.uz/routes.php(72): render('account/index')
+#12 /home/ztechuz/app.z-tech.uz/router.php(38): {closure}()
+#13 /home/ztechuz/app.z-tech.uz/routes.php(91): dispatch()
+#14 /home/ztechuz/app.z-tech.uz/router.php(71): require('/home/ztechuz/a...')
+#15 /home/ztechuz/app.z-tech.uz/index.php(7): require('/home/ztechuz/a...')
+#16 {main}
+  thrown in /home/ztechuz/app.z-tech.uz/connect/rb.php on line 1105

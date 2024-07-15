@@ -203,11 +203,12 @@
             <a href="/coming_soon" class="item sidebar-item"><i class='bx bx-globe'></i> Международный денежный перевод</a>
             <a href="/coming_soon" class="item sidebar-item"><i class='bx bx-refresh'></i> Обмен валюты</a>
             <div class="ui divider"></div>
+            <a class="item sidebar-item" href="/account/settings"><i class='bx bx-cog'></i> Настройки</a>
+            <a class="item sidebar-item" href="/account/logout"><i class='bx bx-log-out'></i> Выйти</a>
+            <!-- <div class="ui divider"></div>
+            <a class="item sidebar-item" href="/account/login"><i class='bx bx-log-in'></i> Войти</a> -->
             <?php if (isset($_SESSION['user'])): ?>
-                <a class="item sidebar-item" href="/account/settings"><i class='bx bx-cog'></i> Настройки</a>
-                <a class="item sidebar-item" href="/account/logout"><i class='bx bx-log-out'></i> Выйти</a>
             <?php else: ?>
-                <a class="item sidebar-item" href="/account/login"><i class='bx bx-log-in'></i> Войти</a>
             <?php endif; ?>
         </div>
         <div class="ui basic segment" id="content">
