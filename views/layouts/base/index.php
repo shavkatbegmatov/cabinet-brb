@@ -60,6 +60,7 @@
 
         #content {
             width: 100%;
+            height: calc(100% - 82px);
             margin: 0px;
             margin-left: 250px;
             padding: 0px;
@@ -110,6 +111,10 @@
             text-align: center !important;
         }
 
+        .user-info-column {
+            height: calc(100% - 82px) !important;
+        }
+
         .user-image {
             margin-bottom: 8px !important;
             border-radius: 50% !important;
@@ -125,12 +130,10 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        /* Flex start to align items from the top */
         padding: 20px;
         border-radius: 10px;
         font-family: Arial, sans-serif;
         position: relative;
-        margin: 20px;
       }
 
       .step {
@@ -213,7 +216,7 @@
                 <div class="thirteen wide column content-column">
                     <?php echo $content; ?>
                 </div>
-                <div class="three wide column">
+                <div class="three wide column user-info-column">
                     <div class="ui fluid segment user-info-segment">
                         <img class="ui small image user-image" src="/views/layouts/assets/img/user.jpg" alt="" />
                         <b class="user-name">Axmatov Ma'ruf Muzzafar ug'li</b>

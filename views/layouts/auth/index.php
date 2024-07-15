@@ -15,11 +15,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background: #f1f1f1 !important;
         }
 
         #container {
             margin: auto;
             max-width: 500px;
+        }
+
+        .ui.top.fixed.text.menu {
+            background: #fff;
+            padding: 8px 0px;
         }
     </style>
 
@@ -30,19 +36,23 @@
 </head>
 <body>
     <div class="ui top fixed text menu">
-        <div class="item">
-            <img class="ui small image" src="/views/layouts/assets/img/logo.svg" />
-        </div>
-        <div class="right menu">
-            <a href="#" class="item">Помощь</a>
-            <a href="#" class="item">Сменить язык</a>
+        <div class="ui container">
+            <div class="item">
+                <img class="ui small image" src="/views/layouts/assets/img/logo.svg" />
+            </div>
+            <div class="right menu">
+                <a href="#" class="item">Помощь</a>
+                <a href="#" class="item">Сменить язык</a>
+            </div>
         </div>
     </div>
     <div class="ui fluid container" id="container">
         <?php echo $content; ?>
     </div>
     <div class="ui bottom fixed text menu">
-        <div class="item">2024 "Банк развития бизнеса". Все права защищены.</div>
+        <div class="ui container">
+            <div class="item">2024 "Банк развития бизнеса". Все права защищены.</div>
+        </div>
     </div>
 
     <script>

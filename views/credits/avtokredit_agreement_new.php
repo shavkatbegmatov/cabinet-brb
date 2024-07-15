@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    margin: 8px 0px 36px 0px;
+    margin: 8px 0px 12px 0px;
 }
 
 .color-checkbox {
@@ -130,7 +130,7 @@
     </div>
 </div>
 
-<div class="ui very padded segment" style="margin-top: 32px">
+<div class="ui padded segment" style="margin-top: 12px">
     <div class="ui stackable two column grid">
         <div class="column" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <img class="ui large image" src="/views/layouts/assets/img/car2.jpg" alt="">
@@ -150,26 +150,6 @@
                         <option>Kia</option>
                         <option>Mercedes-Benz</option>
                         <option>Hyundai</option>
-                    </select>
-                </div>
-                <div class="field">
-                    <label>Выберите дилера</label>
-                    <select>
-                        <option value="drivers-village">DRIVER'S VILLAGE MCHJ</option>
-                        <option value="green-cars-motors">GREEN CARS MOTORS MCHJ</option>
-                        <option value="luckycar">LUCKYCAR (Olam Avto) MCHJ</option>
-                        <option value="mega-oil-biznes">MEGA OIL BIZNES MCHJ</option>
-                        <option value="oscar-motorcars">OSCAR MOTORCARS MCHJ</option>
-                        <option value="poytaxt-avto-tex-savdo">POYTAХT AVTO TEХ SAVDO MCHJ</option>
-                        <option value="sergeli-avtotexxizmat">SERGELI-AVTOTEХХIZMAT MCHJ</option>
-                        <option value="toshkent-avtomarkaz">TOSHKENT AVTOMARKAZ MCHJ</option>
-                        <option value="turon-avto">TURON AVTO MCHJ</option>
-                        <option value="uchtepa-avtosavdo">UCHTEPA AVTOSAVDO MCHJ</option>
-                        <option value="xumo-avtosavdo">XUMO-AVTOSAVDO MCHJ</option>
-                        <option value="yunus-obod-avto-savdo">YUNUS-OBOD AVTO SAVDO MCHJ</option>
-                        <option value="euroaziya-motors">EUROAZIYA MOTORS MCHJ</option>
-                        <option value="vehicle-valley">VEHICLE VALLEY MCHJ</option>
-                        <option value="favorite-cars-service">FAVORITE-CARS-SERVICE MCHJ</option>
                     </select>
                 </div>
                 <div class="field">
@@ -225,6 +205,26 @@
                             <span class="checkmark"></span>
                         </label>
                     </div>
+                </div>
+                <div class="field">
+                    <label>Выберите дилера</label>
+                    <select>
+                        <option value="drivers-village">DRIVER'S VILLAGE MCHJ</option>
+                        <option value="green-cars-motors">GREEN CARS MOTORS MCHJ</option>
+                        <option value="luckycar">LUCKYCAR (Olam Avto) MCHJ</option>
+                        <option value="mega-oil-biznes">MEGA OIL BIZNES MCHJ</option>
+                        <option value="oscar-motorcars">OSCAR MOTORCARS MCHJ</option>
+                        <option value="poytaxt-avto-tex-savdo">POYTAХT AVTO TEХ SAVDO MCHJ</option>
+                        <option value="sergeli-avtotexxizmat">SERGELI-AVTOTEХХIZMAT MCHJ</option>
+                        <option value="toshkent-avtomarkaz">TOSHKENT AVTOMARKAZ MCHJ</option>
+                        <option value="turon-avto">TURON AVTO MCHJ</option>
+                        <option value="uchtepa-avtosavdo">UCHTEPA AVTOSAVDO MCHJ</option>
+                        <option value="xumo-avtosavdo">XUMO-AVTOSAVDO MCHJ</option>
+                        <option value="yunus-obod-avto-savdo">YUNUS-OBOD AVTO SAVDO MCHJ</option>
+                        <option value="euroaziya-motors">EUROAZIYA MOTORS MCHJ</option>
+                        <option value="vehicle-valley">VEHICLE VALLEY MCHJ</option>
+                        <option value="favorite-cars-service">FAVORITE-CARS-SERVICE MCHJ</option>
+                    </select>
                 </div>
 
                 <a class="ui fluid red button" href="/credits/avtokredit/agreement/view" style="font-weight: 400;">Получить договор</a>
